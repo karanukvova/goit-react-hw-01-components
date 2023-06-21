@@ -1,3 +1,4 @@
+import prop from 'prop-types';
 import css from './transactions.module.css'
 export default function TransactionHistory({ transactions }) {
   return (
@@ -21,4 +22,7 @@ export default function TransactionHistory({ transactions }) {
       </tbody>
     </table>
   );
+}
+TransactionHistory.prop = {
+  transactions : prop.object.isRequired
 }

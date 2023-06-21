@@ -1,3 +1,4 @@
+import propTypes from 'prop-types';
 import css from './statistics.module.css'
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
@@ -19,4 +20,9 @@ export default function Statistics({ title, stats }) {
       </ul>
     </section>
   );
+}
+
+Statistics.propTypes = {
+  title: propTypes.string,
+  stats : propTypes.array.isRequired
 }
