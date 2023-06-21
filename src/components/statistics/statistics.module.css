@@ -1,0 +1,32 @@
+.statisticsDiv{
+    width: 400px;
+    border: 1px solid #e9eef3;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #bcbec0;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.statisticsList{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.statisticsItem{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
+}
+.statisticsLabel{
+    font-size: 25px;
+}
